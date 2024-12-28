@@ -325,3 +325,99 @@ return arr;
 console.log(daraja(100));
 _______________________________________________________________________________________________________________________20
 */
+
+/*
+berilgan kattahonali sonni raqamlarga bolib yig'indisini topish dasturini tuzing. funksiya va for loop orqali.
+let number = function (num) {
+let sum = 0;
+for(let i = 0; i <= num; i++){
+    let digit = num % 10;
+    sum+= digit;
+    num = Math.floor(num / 10);
+}
+console.log(sum);
+}
+number(1234);
+________________________________________________________________________________________________________________________21
+
+berilgan kattahonali sonni raqamlarga bolib yig'indisini topish dasturini tuzing. funksiya va while loop orqali.
+let number = function (num) {
+let sum = 0;
+while(num > 0){
+    let digit = num % 10;
+    sum+= digit;
+    num = Math.floor(num / 10);
+}
+console.log(sum);
+}
+number(1234);
+________________________________________________________________________________________________________________________22
+
+berilgan kattahonali sonni raqamlarga bolib ulat ichidan eng katta raqamni topish dasturini tuzing. funksiya va for loop orqali.
+
+let number = function (num) {
+let max = 0;
+for(let i = 0; i <= num; i++){
+    let digit = num % 10;
+    if(digit > max){
+        max = digit;
+    }
+    num = Math.floor(num / 10);
+}
+console.log(max);
+}
+number(1234);
+________________________________________________________________________________________________________________________23
+
+berilgan kattahonali sonni raqamlarga bolib ulat ichidan eng katta raqamni topish dasturini tuzing. funksiya va while loop orqali.
+
+
+let number = function (num) {
+let max = 0;
+let i = 0;
+while(i <= num){
+    let digit = num % 10;
+    if(digit > max){
+        max = digit;
+    }
+    num = Math.floor(num / 10);
+    i++;
+}
+console.log(max);
+}
+number(1583984);
+________________________________________________________________________________________________________________________24
+
+n raqamini va ungacha bolgan sonlarini ozini qiymaticha takrolab ustma ust chiqarish dastur tuzing. funksiya va for loop orqali.
+
+let number = function (n) {
+for(let i = 1; i <= n; i++){
+    let str = "";
+    for(let j = 0; j < i; j++){
+        str += i;
+    }
+    console.log(str);
+}
+}
+number(52);
+________________________________________________________________________________________________________________________25
+
+n raqamini va ungacha bolgan sonlarini ozini qiymaticha takrolab ustma ust chiqarish dastur tuzing. funksiya va while loop orqali.
+
+let number = function (n) {
+let i = 1;
+while(i <= n){
+    let str = "";
+    let j = 0;
+    while(j < i){
+        str += i;
+        j++;
+    }
+    console.log(str);
+    i++;
+}
+}
+number(52);
+________________________________________________________________________________________________________________________26
+
+*/
